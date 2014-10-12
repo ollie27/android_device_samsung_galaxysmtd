@@ -1,3 +1,7 @@
+# Add gapps
+WITH_GMS := true
+$(call inherit-product, vendor/google/gapps/gapps.mk)
+
 # Release name
 PRODUCT_RELEASE_NAME := GalaxyS
 
